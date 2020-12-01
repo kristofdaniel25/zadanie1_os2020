@@ -18,8 +18,6 @@ then
 	exit 1
 fi
 
-echo pocet_arg = "$POCET_ARG"
-
 #priprava endTime
 
 MOJ_ENDTIME=$(echo "$MOJ_STARTTIME"+"24*60*60" | bc)
